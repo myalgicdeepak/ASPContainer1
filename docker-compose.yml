@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspcontainer1:
+    image: ${DOCKER_REGISTRY-}aspcontainer1
+    build:
+      context: .
+      dockerfile: ASPContainer1/Dockerfile
